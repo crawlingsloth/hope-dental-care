@@ -5,8 +5,8 @@ import {
   Phone, 
   Mail, 
   Clock, 
-  Car,
-  Bus,
+  Ship,
+  Waves,
   Shield
 } from 'lucide-react';
 import Card from './shared/Card';
@@ -180,35 +180,35 @@ const Contact: React.FC = () => {
               </div>
             </Card>
 
-            {/* Transportation & Parking */}
+            {/* Location Access */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Card className="p-6">
                 <div className="flex items-center space-x-3 mb-4">
                   <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
-                    <Car className="w-5 h-5 text-green-600" />
+                    <Ship className="w-5 h-5 text-green-600" />
                   </div>
-                  <h5 className="font-semibold text-gray-900">Parking</h5>
+                  <h5 className="font-semibold text-gray-900">Ferry Access</h5>
                 </div>
                 <div className="space-y-2 text-sm text-gray-600">
-                  <p>✓ Validated parking available</p>
-                  <p>✓ Street parking nearby</p>
-                  <p>✓ Parking garage entrance on Pine St</p>
-                  <p>✓ Wheelchair accessible</p>
+                  <p>⛵ 5 minutes from Villingili Ferry Terminal</p>
+                  <p>🚤 Easy access from nearby islands</p>
+                  <p>🏝️ Close to Hulhumale ferry route</p>
+                  <p>📍 Central Male location</p>
                 </div>
               </Card>
 
               <Card className="p-6">
                 <div className="flex items-center space-x-3 mb-4">
                   <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <Bus className="w-5 h-5 text-blue-600" />
+                    <Waves className="w-5 h-5 text-blue-600" />
                   </div>
-                  <h5 className="font-semibold text-gray-900">Public Transit</h5>
+                  <h5 className="font-semibold text-gray-900">Local Transport</h5>
                 </div>
                 <div className="space-y-2 text-sm text-gray-600">
-                  <p>🚇 Montgomery Station (2 blocks)</p>
-                  <p>🚌 Multiple bus lines nearby</p>
-                  <p>🚲 Citi Bike station available</p>
-                  <p>🚶 Walkable from Union Square</p>
+                  <p>🚗 Taxi stand nearby</p>
+                  <p>🛵 Easy scooter access</p>
+                  <p>🚶 Walking distance from shops</p>
+                  <p>🏨 Close to major hotels</p>
                 </div>
               </Card>
             </div>
@@ -224,15 +224,14 @@ const Contact: React.FC = () => {
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h6 className="text-sm font-medium text-gray-900 mb-3">Accepted Insurance</h6>
+                  <h6 className="text-sm font-medium text-gray-900 mb-3">Insurance Partners</h6>
                   <div className="space-y-1 text-sm text-gray-600">
-                    <p>• Aetna</p>
-                    <p>• Blue Cross Blue Shield</p>
-                    <p>• Cigna</p>
-                    <p>• Delta Dental</p>
-                    <p>• Humana</p>
-                    <p>• MetLife</p>
-                    <p className="text-primary-600">+ Many more plans</p>
+                    <p>• Aasandha</p>
+                    <p>• MTCC Health</p>
+                    <p>• Bank of Maldives Staff</p>
+                    <p>• STO Employee Health</p>
+                    <p>• Private corporate plans</p>
+                    <p className="text-primary-600">+ Many local providers</p>
                   </div>
                 </div>
                 
@@ -240,11 +239,11 @@ const Contact: React.FC = () => {
                   <h6 className="text-sm font-medium text-gray-900 mb-3">Payment Options</h6>
                   <div className="space-y-1 text-sm text-gray-600">
                     <p>💳 All major credit cards</p>
-                    <p>💰 Cash payments</p>
-                    <p>🏦 CareCredit financing</p>
+                    <p>💰 Cash payments (MVR)</p>
+                    <p>📱 Bank transfers</p>
                     <p>📋 Payment plans available</p>
                     <p>👥 Family discounts</p>
-                    <p>🎓 Senior discounts</p>
+                    <p>🎓 Student discounts</p>
                   </div>
                 </div>
               </div>
